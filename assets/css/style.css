@@ -1,0 +1,36 @@
+*
+{
+    margin: 0;
+    padding:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body
+{
+    background-color: rgba(250, 250, 0, 0.966);
+    color: rgb(69, 63, 63);
+    padding:100px;
+}
+.flex-container
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    background-color: rgb(156, 156, 255);
+    padding: 7px;
+    border: 3px dotted black;
+}
+.heading-box,.purchase_date
+{
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.days_owned
+{
+    background-color: rgb(255, 100, 100);
+    padding: 10px;
+    border-radius:5px;
+    text-align: center;
+
+}
