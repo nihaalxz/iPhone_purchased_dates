@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iPhone-purchase_date</title>
     <link href="./assets/css/style.css" rel="stylesheet">
     <link href="https://m.media-amazon.com/images/I/81dT7CUY6GL.jpg" rel="icon">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div class="flex-container">
         <div class="heading-box">
@@ -17,19 +21,24 @@
         </div>
         <div class="days_owned">
             <p id="result"></p>
-    </div>
+        </div>
+        <button id="btn-reveal">Click for accessory details</button>
+        <div class="accessory">
+            <p id="acc_result_1"></p>
+            <p id="acc_result_2"></p>
+        </div>
     </div>
 
     <div class="flex-container">
         <div class="heading-box">
-            <h1>My HP Victus  Ownership details</h1>
+            <h1>My HP Victus Ownership details</h1>
         </div>
         <div class="purchase_date">
             <h3>This device was bought on 31-08-2021</h3>
         </div>
         <div class="days_owned">
             <p id="result__"></p>
-    </div>
+        </div>
     </div>
 
     <div class="flex-container">
@@ -41,8 +50,9 @@
         </div>
         <div class="days_owned">
             <p id="result_"></p>
+        </div>
     </div>
-    </div>
+    <script src="./assets/js/app.js"></script>
 </body>
-<script src="./assets/js/app.js"></script>
+
 </html>
