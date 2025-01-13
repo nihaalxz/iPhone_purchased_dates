@@ -37,6 +37,11 @@ body {
 .accessory {
     display: none;
 }
+.accessory h4 {
+    background-color: cadetblue;
+    color:white;
+    padding: 5px;
+}
 
 #btn-reveal {
     background-color: rgb(42, 159, 165);
