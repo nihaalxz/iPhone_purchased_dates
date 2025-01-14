@@ -25,7 +25,7 @@ let Difference_In_Days__anker = Math.round(
   Difference_In_Time__anker / (1000 * 3600 * 24)
 );
 const result__anker = document.getElementById("acc_result_1");
-result__anker.innerHTML = `<h3>Total number of anker screen protector owned :</h3><h1 style="font-size:26px;color:white;">${Difference_In_Days__anker}</h1>`;
+result__anker.innerHTML = `<h3 style=color:white;>Total number of anker screen protector owned :</h3><h1 style="font-size:26px;color:white;">${Difference_In_Days__anker}</h1>`;
 
 const date6 = new Date("12/21/2024");
 const Difference_In_Time__ringke = date2.getTime() - date6.getTime();
@@ -33,7 +33,7 @@ let Difference_In_Days__ringke = Math.round(
   Difference_In_Time__ringke / (1000 * 3600 * 24)
 );
 const result__ringke = document.getElementById("acc_result_2");
-result__ringke.innerHTML = `<h3>Total number of ringke onyx owned :</h3><h1 style="font-size:26px;color:white;">${Difference_In_Days__ringke}</h1>`;
+result__ringke.innerHTML = `<h3 style=color:white;>Total number of ringke onyx owned :</h3><h1 style="font-size:26px;color:white;">${Difference_In_Days__ringke}</h1>`;
 
 $(document).ready(() => {
 
